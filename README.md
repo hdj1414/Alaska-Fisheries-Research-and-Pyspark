@@ -19,13 +19,13 @@ The project involved the use of various technologies and tools for data analysis
 • Scikit-Learn: Employed for implementing and comparing regression models, Scikit-Learn offered metrics and tools for model evaluation, including mean squared error and cross-validation (Tran et al., 2022).
 • Matplotlib: Utilized for data visualization, Matplotlib enabled the creation of various plots and charts, providing customization options for appearance and style (Chandra and Dwivedi, 2022).
 
-Libraries Used
+# Libraries Used
 • pyspark.sql: Central in Spark, this library manages structured data, aiding data manipulation and transformation in distributed collections efficiently (Belcastro et al., 2022).
 • pyspark.ml: Hosts machine learning algorithms, particularly regression models, streamlining model development within the PySpark ecosystem (Chhabra et al., 2023).
 • pyspark.mllib: A comprehensive library, it encompasses basic statistics, classification, regression, clustering, and collaborative filtering functions, enhancing data analysis versatility (Belcastro et al., 2022).
 • sklearn: Essential for model selection and evaluation, scikit-learn is a powerful Python package contributing to efficient machine learning model implementation and assessment (Chhabra et al., 2023).
 
-Statistical Methods Used to Train the Models:
+# Statistical Methods Used to Train the Models:
 • Random Forest Regression: Executed via PySpark's 'RandomForestRegressor,' this ensemble learning technique enhances prediction accuracy through multiple decision trees, refining model robustness (Zhou, 2023).
 • Linear Regression: Utilized the PySpark 'LinearRegression' module, enabling straightforward modeling of linear relationships between variables, crucial for predictive analysis (Xing et al., 2023).
 • Generalized Linear Regression: Leveraged PySpark's 'GeneralizedLinearRegression' to extend traditional linear regression, accommodating diverse distribution families for better model adaptability (Singh, 2019).
@@ -33,7 +33,7 @@ Statistical Methods Used to Train the Models:
 • Gradient-Boosted Trees Regression Model: Implemented through PySpark's 'GBTRegressor,' this model iteratively builds decision trees, correcting errors from prior trees, resulting in a powerful, accurate ensemble for predicting fish catch frequencies (Singh, 2019).
 • Time Series Analysis: Integral to forecasting, time series analysis explores sequential data points. In this project, it aids in understanding and predicting trends in fish catch frequencies over the annual longitudinal survey period (Zhou, 2023).
 
-Usefulness of the project
+# Usefulness of the project
 • Enhanced Operational Efficiency:
 o The regression model of gradient-boosted trees provides high accuracy for forecasting the frequency of fish catches. This allows Alaskan fisheries to plan their operations better and match their resource allocation with the expected demand.
 • Resource Management and Conservation:
